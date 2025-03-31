@@ -17,10 +17,10 @@ class echiquier:
         self.hauteur= self.taille_case * self.taille_echiquier
 
 
-    def dessiner_echiquier(self):
+    def dessiner_echiquier(self, fenetre):
 
         # Création de la fenetre
-        fenetre = pygame.display.set_mode(size=(self.largeur, self.hauteur))
+
         pygame.display.set_caption("échiquier")
 
         """Dessiner l'échiquier"""
